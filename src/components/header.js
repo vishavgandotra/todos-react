@@ -13,7 +13,8 @@ export const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link as={NavLink} to="/">Home</Nav.Link>
-              <Nav.Link  as={NavLink} to="/about">About</Nav.Link>
+              <Nav.Link  as={NavLink} to="/about?id=1">About</Nav.Link>
+              <Nav.Link  as={NavLink} to="/test/random">URI params test</Nav.Link>
              </Nav>
           </Navbar.Collapse>
         </Container>

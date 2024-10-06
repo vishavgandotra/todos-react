@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Main2 } from './components/Main2';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import { About } from './components/About';
+import { Test } from './components/Test';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           </div>
         )} />
         <Route path="/about" element={<About />} />
+        <Route path="/test/:testparam" element={<Test />} />
 
       </Routes>
     </Router>
